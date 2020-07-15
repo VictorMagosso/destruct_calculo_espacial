@@ -1,11 +1,15 @@
-const obj1 = {
-    nome: "victor",
-    idade: "24"
-};
+let rs = require('readline-sync')
 
-const obj2 = {
-    endereco: "Rua Teste"
-};
-const restObjetos = {...obj1, ...obj2};
+let tipoCalculo = rs.question('Qual tipo de calculo você deseja realizar? (Area, Volume, Perimetro) ').toLocaleUpperCase()
+let forma = '';
 
-console.log(typeof restObjetos);
+switch (tipoCalculo){
+        case 'VOLUME': forma = rs.question('Escolha uma opcao: Cilindro, Esfera, Cubo, Piramide: ')
+        const volume = (base, altura, largura, raio) => {
+            
+        }  
+    }
+const forma = rs.question('Q')
+const calculos = (base, altura, largura) => {
+
+}
